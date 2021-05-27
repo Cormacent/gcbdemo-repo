@@ -17,7 +17,7 @@ steps:
     args:
       - 'run'
       - 'deploy'
-      - 'cloudrunservice'
+      - 'demo-service'
       - '--image'
       - 'gcr.io/$PROJECT_ID/hello-app'
       - '--region'
